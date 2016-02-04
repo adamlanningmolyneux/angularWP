@@ -1,2 +1,2 @@
-# Shady Fox CMS
-CMS system built using CodeIgniter, AngularJS and Twitter Bootstrap.
+# AngularWP
+A starter WordPress theme built using Angular 2 and WP API
