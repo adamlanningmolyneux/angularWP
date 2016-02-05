@@ -1,0 +1,5 @@
+<article *ngFor="#post of posts">
+	<h1 *ngIf="post.title.rendered">{{post.title.rendered}}</h1>
+  <div *ngIf="post.excerpt.rendered" [innerHTML]="post.excerpt.rendered"></div>
+  <a href="{{post.link}}">Read more</a>
+</article>
